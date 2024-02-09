@@ -1,3 +1,5 @@
-# technative.nl-hugo-v2022
+# Bexer Remix
 
-Technative website made in Q4 2022
+Ready for small and large websites
+
+Create sites using bexer for bug companies or small projects. Bexer and it’s CMS in Quiqr can handle every site challenge.

@@ -109,7 +109,7 @@ content_blocks:
     subtitle: Ready for small and large websites
     content: >-
       Create sites using bexer for bug companies or small projects. Bexer and
-      it's CMS in Quiqr can handle every site challange.
+      it's CMS in Quiqr can handle every site challenge.
     bg_image: pricing-table-bg.png
     image: x1080.jpg
     style: ImageLeft
@@ -119,6 +119,8 @@ mainContentInfo: ''
 draft: false
 
 ---
+
+
 
 
 
