@@ -1,0 +1,49 @@
+- title: Pages
+  menuItems:
+    - key: homepage
+    - key: pagesother
+
+- title: Projects
+  menuItems:
+    - key: project_overview
+    - key: project_items
+
+#- title: Services
+#  menuItems:
+#    - key: service_overview
+#    - key: service_items
+
+- title: Careers
+  menuItems:
+    - key: career_overview
+    - key: career_items
+
+- title: Blog
+  menuItems:
+    - key: blog_overview
+    - key: blog_items
+
+- title: Assets
+  menuItems:
+    - key: imagesLogo
+    - key: imagesBackgrounds
+    - key: imagesParagraph
+    - key: imagesSlider
+    - key: imagesTeam
+    - key: imagesTestimonial
+    - key: imagesBlog
+    - key: imagesNews
+    - key: imagesProject
+    - key: imagesCareer
+
+- title: Data
+  menuItems:
+    - key: forms
+    - key: team_items
+    - key: testimonials
+
+- title: Settings
+  menuItems:
+    - key: menus_alt
+    - key: design
+    - key: params

@@ -1,0 +1,129 @@
+baseURL: https://quiqr.org/
+title: Quiqr
+theme:
+  - bexer-hugo
+  - hugo-debugprint
+paginate: '6'
+summaryLength: '10'
+googleAnalytics: ''
+disableLanguages: []
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+    - WebAppManifest
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+mediaTypes:
+  application/manifest+json:
+    suffixes:
+      - webmanifest
+  text/netlify:
+    delimiter: ''
+    suffixes:
+      - ''
+outputFormats:
+  WebAppManifest:
+    mediaType: application/manifest+json
+    rel: manifest
+languages:
+  en:
+    menu:
+      main: null
+    languageName: En
+    languageCode: en-us
+    contentDir: content/english
+    weight: 1
+    home: home
+    copyright: © 2023 - Quiqr
+    footer_content: '**With Quiqr you can build, share, maintain and publish websites.**'
+params:
+  debugprint: true
+  logo: 000086.33a7e1f6.1665293501.png
+  logo_width: 100px
+  logo_footer: 000086.33a7e1f6.1665293501.png
+  favicon: 000086.33a7e1f6.1665293501.png
+  top_header: false
+  description: >-
+    Quiqr is a local first Hugo CMS with built in Git functionality. Quiqr is
+    available for macOS, Windows and Linux.
+  author: Themefisher
+  contact_form_action: '#'
+  google_analitycs_id: ''
+  address: ''
+  mobile: ''
+  email: info@quiqr.org
+  quick_contact: false
+  search: false
+  mainSections:
+    - blog
+    - service
+    - project
+  preloader:
+    enable: false
+    preloader: ''
+  navigation_button:
+    enable: true
+    label: download now
+    link: https://github.com/wearetechnative/quiqr-template-bexer-remix
+  subscription:
+    enable: false
+    mailchimp_form_action: >-
+      https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074
+    mailchimp_form_name: b_463ee871f45d2d93748e77cad_a0a2c6d074
+  gmap:
+    enable: true
+    gmap_api: AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU
+    map_latitude: '51.5223477'
+    map_longitude: '-0.1622023'
+    map_marker: images/marker.png
+    map_marker_name: marker.png
+    resources: []
+  social:
+    - icon: fab fa-twitter
+      link: https://twitter.com/quiqrapp
+    - icon: fab fa-github
+      link: https://github.com/quiqr
+  resources: []
+  menus_alt:
+    main:
+      - name: Why Bexer Remix
+        url: ''
+        submenus:
+          - name: Local First
+            url: /
+            disabled: false
+          - name: Made for Hugo
+            url: https://gohugo.io
+            disabled: false
+          - name: Secure by design
+            url: /
+            disabled: false
+          - name: Free forever
+            url: https://github.com/wearetechnative/quiqr-template-bexer-remix
+            disabled: false
+          - name: Blazingly Fast
+            url: /
+            disabled: false
+        disabled: false
+      - name: Download Quiqr
+        url: /pages/download
+        disabled: false
+        submenus: []
+      - name: Projects
+        submenus: []
+        url: /project
+        disabled: false
+      - name: Blog
+        url: /blog
+        disabled: false
+        submenus: []
+      - name: about
+        url: /pages/about
+        disabled: false
+        submenus: []
+    footer: []
+  top_menu_vertical_margin: '8'
