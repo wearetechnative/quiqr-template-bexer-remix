@@ -7,10 +7,10 @@
         <div class="row justify-content-between align-items-center">
           <div class="col-md-5 bg-contain" data-background="/images/backgrounds/{{ .bg_image }}">
             <!-- this image is for trigger this section fallback background image -->
-            <img class="d-none" src="/images/backgrounds/{{ .bg_image }}"
+            <img class="d-none" src="images/backgrounds/{{ .bg_image }}"
               onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .bg_image | absURL }})'" />
             {{ "<!-- about us image -->" | safeHTML }}
-            <img loading="lazy" class="img-fluid w-100" src="/images/paragraph/{{ .image }}"
+            <img loading="lazy" class="img-fluid w-100" src="images/paragraph/{{ .image }}"
               onerror="this.onerror=null;this.src='{{.image | absURL }}'" alt="About Image">
           </div>
           <div class="col-md-6">
@@ -58,7 +58,7 @@
           </div>
           <div class="col-lg-5 pr-lg-0 order-lg-2 order-1 mb-5 mb-lg-0">
             <div class="feature-img-bg box-shadow">
-              <img loading="lazy" class="img-fluid w-100" src="/images/paragraph/{{ .image }}"
+              <img loading="lazy" class="img-fluid w-100" src="images/paragraph/{{ .image }}"
                 onerror="this.src='{{ .image | absURL }}'" alt="feature-image">
             </div>
           </div>

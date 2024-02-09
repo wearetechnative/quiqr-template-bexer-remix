@@ -4,7 +4,7 @@
   {{ with .Params.Categories }}{{range first 1 .}} <div class="card-type">{{ . | title }}</div>{{ end }}{{ end }}
 
   <a href="{{ .Permalink }}" >        <img loading="lazy"
-           src="/images/blog/{{.Params.Image }}"
+           src="images/blog/{{.Params.Image }}"
            style="
                 object-fit: cover;
                 object-position: center;

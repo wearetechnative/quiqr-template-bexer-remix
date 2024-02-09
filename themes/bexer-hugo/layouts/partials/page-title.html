@@ -10,11 +10,11 @@
   {{ end }}
 
   {{ if $Image }}
-    <section class="section bg-cover overlay" style="background-image: url('/images/backgrounds/{{ .Params.Bg_image  }}');">
-    <img class="d-none" src="/images/backgrounds/{{ .Params.Bg_image  }}">
+    <section class="section bg-cover overlay" style="background-image: url('{{ site.BaseURL }}/images/backgrounds/{{ .Params.Bg_image  }}');">
+    <img class="d-none" src="images/backgrounds/{{ .Params.Bg_image  }}">
   {{ else }}
-    <section class="section bg-cover overlay" style="background-image: url('/images/backgrounds/page-title.jpg');">
-    <img class="d-none" src="/images/backgrounds/page-title.jpg">
+    <section class="section bg-cover overlay" style="background-image: url('{{ site.BaseURL }}/images/backgrounds/page-title.jpg');">
+    <img class="d-none" src="images/backgrounds/page-title.jpg">
   {{ end }}
 
   <div class="container">

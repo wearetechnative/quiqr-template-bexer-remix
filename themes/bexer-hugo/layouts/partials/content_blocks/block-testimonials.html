@@ -20,7 +20,7 @@
 
             {{ "<!-- slider-item -->" | safeHTML }}
             <div class="text-center">
-              <img loading="lazy" style="max-width: 150px" class="img-fluid box-shadow rounded-circle mb-5 d-inline-block" src="/images/testimonial/{{ .client_image }}" alt="{{ .name }}">
+              <img loading="lazy" style="max-width: 150px" class="img-fluid box-shadow rounded-circle mb-5 d-inline-block" src="images/testimonial/{{ .client_image }}" alt="{{ .name }}">
               <div class="bg-quote text-center pt-md-4">
                 <p class="font-italic mb-5 h5 text-dark">{{ .content | markdownify }}</p>
                 <h4>{{ .name }}</h4>

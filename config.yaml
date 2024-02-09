@@ -1,4 +1,4 @@
-baseURL: https://quiqr.org/
+baseURL: https://wearetechnative.github.io/quiqr-template-bexer-remix/
 title: Quiqr
 theme:
   - bexer-hugo
@@ -94,35 +94,39 @@ params:
         url: ''
         submenus:
           - name: Local First
-            url: /
+            url: ./
             disabled: false
           - name: Made for Hugo
             url: https://gohugo.io
             disabled: false
           - name: Secure by design
-            url: /
+            url: ./
             disabled: false
           - name: Free forever
             url: https://github.com/wearetechnative/quiqr-template-bexer-remix
             disabled: false
           - name: Blazingly Fast
-            url: /
+            url: ./
             disabled: false
         disabled: false
       - name: Download Quiqr
-        url: /pages/download
+        url: pages/download
         disabled: false
         submenus: []
       - name: Projects
         submenus: []
-        url: /project
+        url: project
         disabled: false
       - name: Blog
-        url: /blog
+        url: blog
         disabled: false
         submenus: []
       - name: about
         url: /pages/about
+        disabled: false
+        submenus: []
+      - name: We hiring
+        url: career
         disabled: false
         submenus: []
     footer: []
