@@ -304,3 +304,12 @@
   title: Params
   file: /config.yaml
   _mergePartial: single_conf_params
+
+- key: etalage
+  _mergePartial: https://raw.githubusercontent.com/quiqr/model-partials/main/singles/etalage.yml
+
+- key: readme
+  _mergePartial: https://raw.githubusercontent.com/quiqr/model-partials/main/singles/readme.yml
+
+- key: dashboard
+  _mergePartial: https://raw.githubusercontent.com/quiqr/model-partials/main/singles/dashboard.yml

@@ -47,3 +47,11 @@
     - key: menus_alt
     - key: design
     - key: params
+
+- title: Developer
+  matchRole: siteDeveloper
+  menuItems:
+    - key: dashboard
+    - key: etalage
+    - key: readme
+
