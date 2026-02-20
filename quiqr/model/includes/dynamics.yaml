@@ -80,7 +80,8 @@
   _mergePartial: block_contact_someone
   content_type: block_contact_someone
 
-- content_type: block_form
+- key: dynbxform
+  content_type: block_form
   _mergePartial: block_form
 
 ########
@@ -93,4 +94,3 @@
 
 - key: dynffhidden
   _mergePartial: dynformfield_hidden
-
